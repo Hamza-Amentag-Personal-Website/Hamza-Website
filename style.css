@@ -1,16 +1,11 @@
         * {
-            /* box-sizing: border-box;  */
-            /* font-family: 'Tangerine', serif; */
-            /* font-size: 1.5rem; */
-            /* font-weight: bold; */
-            
             text-decoration: none;
             }
         body{
             background-color:azure;
             padding: 0.5rem;
         }
-        
+        /* ------------------Header styling------------ */
         .logo{
             display: inline-block;
             margin-left: 0.5rem;
@@ -19,9 +14,7 @@
             width:45px; 
             height:45px;
             border: 1px solid blue;
-            
             border-radius: 50%;
-        
         }
        
         .buttons{
@@ -36,7 +29,7 @@
             border-radius: 30%;  
             font-weight: bold; 
             }
-
+/* ------------------Home page (index.html) styling------------ */
         .mainIndex{
             display: grid;
             padding: 0 10px;
@@ -172,6 +165,3 @@
 .project p{
     background-color: #fff;
 }
-
-    
-    
