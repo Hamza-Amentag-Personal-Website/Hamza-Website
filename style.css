@@ -59,6 +59,7 @@ aside{
         font-family:Verdana, Geneva, Tahoma, sans-serif;            
 }
 
+
 #myName{
         font-size: 3rem;  
         font-family:Verdana, Geneva, Tahoma, sans-serif; 
@@ -154,4 +155,24 @@ gap: 15px;
 
 .project p{
 background-color: #fff;
+}
+
+/*///////////////////// Media Queries ///////////////////*/ 
+/* styles for mobile devices */ 
+@media only screen and (max-width: 320px){
+body {
+width: 100%;
+}  
+}
+/* styles for tablet */ 
+@media only screen and (min-width: 320px){
+body {
+width: 100%;
+}  
+}
+/* styles for dectop */ 
+@media only screen and (min-width: 1024px){
+body {
+width: 1200px;
+}  
 }
