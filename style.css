@@ -157,6 +157,25 @@ gap: 15px;
 background-color: #fff;
 }
 
+/*///////////////////// contact page ///////////////////*/ 
+form{
+    margin: 3rem;
+}
+input[type=submit]{
+    font-style: italic;
+    background-color: lightcyan;
+    padding: 8px;
+    border-radius: 10px; 
+    margin-top: 3rem;        
+}
+input[type=text]:nth-of-type(4){
+    width: 50%;
+    height: 15vh;
+    background-color: rgb(224, 227, 225);     
+}
+label{
+    font-style: italic;
+}
 /*///////////////////// Media Queries ///////////////////*/ 
 /* styles for mobile devices */ 
 @media only screen and (max-width: 320px){
@@ -170,7 +189,7 @@ body {
 width: 100%;
 }  
 }
-/* styles for dectop */ 
+/* styles for desctop */ 
 @media only screen and (min-width: 1024px){
 body {
 width: 1200px;
